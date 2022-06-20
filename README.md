@@ -1,4 +1,4 @@
-Automation OF the website IceHrm.
+Automation of the website IceHrm.
 
 I Worked in the UI Testing of this Website.
 
