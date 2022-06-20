@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Regression Runner">
+    <test name="IceHrm Tests" >
+        <classes>
+            <class name="com.test.icehrm.tests.IceHrmPayrollTest"></class>
+        </classes>
+    </test>
+</suite>
