@@ -21,6 +21,7 @@ public class IceHrmLoginTest extends TestBase {
         Thread.sleep(1500);
         Assert.assertTrue(iceHrmMainPage.getSwitchEmployeeText().equals("Switch Employee"));
         iceHrmMainPage.selectTheEmployee("Lala Lamees");
+
         //Test Case 2
         IceHrmPersonalInfoPage iceHrmPersonalInfoPage = new IceHrmPersonalInfoPage(driver);
         iceHrmPersonalInfoPage.validatingPersonalInfoClass(driver, "Personal_Information",
@@ -29,7 +30,5 @@ public class IceHrmLoginTest extends TestBase {
         //Test Case 3
 
     }
-
-
 
 }
